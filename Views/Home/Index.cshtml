@@ -1,0 +1,68 @@
+@model dynamic
+@{ ViewData["Title"] = "Home Page"; }
+
+
+<div id="intro">
+	<div class="ui container">
+		<div class="row">
+			<div class="column">
+				<h1 class="compact">Sean Johnson</h1>
+				<h2 class="compact">Web Developer <span class="plus">+</span> Designer</h2>
+			</div>
+		</div> 
+	</div>
+</div>
+
+
+<section class="work-history">
+
+	@foreach (dynamic item in Model.experience.workHistory) {
+		
+		
+		<div class="ui container">
+
+			<div class="ui grid stackable">
+				<div class="four wide column">
+					<h3 class="title compact">
+						@item.title
+					</h3>
+					<div class="secondary-info">
+						<div class="company">
+							@item.company.name
+							<br/>
+							<ul>
+								@foreach (var m in item.company.meta.item) {
+								<li>@m</li>
+								}
+							</ul>
+						</div>
+						<div class="daterange soft">
+							@item.company.tenure
+						</div>
+					</div>
+				</div>
+				<div class="ten wide column">
+					<p class="summary">
+						@item.summary
+					</p>
+
+					<ul class="work-details">
+						@foreach (var detail in item.details.detail) {
+						<li>
+							<p>@detail</p>
+						</li>
+						}
+					</ul>
+
+				</div>
+			</div>
+
+		</div>
+
+
+
+	}
+
+</section>
+
+

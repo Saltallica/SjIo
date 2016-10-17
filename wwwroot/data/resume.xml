@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<experience>
+    
+    <workHistory>
+        
+        <title>Senior Front-End Developer</title>
+        
+        <company>
+            <name>
+                Online Rewards
+            </name>
+            <meta>
+                <item>SaaS Provider</item>
+                <item>Custom Rewards Programs</item>
+            </meta>
+            <tenure>March 2013 - present</tenure>
+        </company>
+
+        <summary>
+            I design and develop custom web applications and e-commerce sites for medium to large companies, used to reward, recognize,
+		    and incentivize their employees and customers - using XSLT, XML, HTML5, Javascript, Foundation, and SASS.
+        </summary>
+
+        <details>
+            <detail>
+                Maintained and improved our base site functionality, flexibility, and usability. Moved from pure CSS to SASS workflow
+				to speed up customization. Rebuilt all components to use responsive design for mobile support. Wrote custom jQuery
+				plugins and scripts to aid in AJAX usage. Built and maintained customizable HTML5 javascript based games.
+            </detail>
+            <detail>
+                I lead front-end developer meetings centered around process, design, and UX improvements. Provided training and support to other front-end developers.
+            </detail>
+            <detail>
+                Developed web applications for: Macy's, Buffalo Wild Wings, VSP Optics, New York Blood Center, ComScore, and Altour.
+				Built and maintained Online Rewards marketing and intranet sites.
+            </detail>
+            <detail>
+                Designed and developed MyPointRewards, a SaaS web application for easily creating, customizing and running employee
+                recognition and rewards programs.
+            </detail>
+        </details>
+
+    </workHistory> 
+    <workHistory>
+        
+        <title>Senior Software Engineer</title>
+        
+        <company>
+            <name>
+                FORTE Industries
+            </name>
+            <meta>
+                <item>Distribution Center Design &amp; Build</item>
+                <item>Industrial Automation</item>
+            </meta>
+            <tenure>September 2011 - March 2014</tenure>
+        </company>
+
+        <summary>
+            I designed and developed a suite of applications for distribution centers: warehouse management, conveyor control, monitoring, and support.
+        </summary>
+
+        <details>
+            <detail>
+                Designed and built an industrial HMI application for monitoring conveyor belt systems in real-time using WCF, MVC,
+                        SignalR, and HTML5 canvas, replacing a Windows 95 thick client application that had reliance on Visio and other third
+                        party controls – simplifying our deployment and licensing models.
+            </detail>
+            <detail>
+                Developed a HTML5 canvas based Visio-like editor for mapping and configuring conveyor systems, eliminating the tedious
+                            and error prone task of building configurations by hand. The application, built on paper.js, allowed for manipulation
+                            and placement of complex shapes, editing properties, mapping of conveyor machine status to individual shapes, as
+                            well as importing and exporting of map data.
+            </detail>
+            <detail>
+                Built a web based warehouse management system with an emphasis on usability and aesthetics using MVC, jQuery UI,
+                            SignalR, and Bootstrap. The application has garnered attention for its design as a key differentiator from competitors
+                            by the Gartner research group.
+            </detail>
+            <detail>
+                Improved our customer support by replacing an outdated 3rd party support application with a custom CRM to consolidate
+                            customer profiles, technical knowledge, and incidents. The app was built with Entity Framework 4, MVC, google maps
+                            API, and a number of JavaScript plugins.
+            </detail>
+            <detail>
+                Authored and designed detailed user guides for a number of the applications.
+            </detail>
+        </details>
+
+    </workHistory> 
+
+
+    <workHistory>
+        
+        <title>Web Developer &amp; Designer</title>
+        
+        <company>
+            <name>
+                Quality Gold
+            </name>
+            <meta>
+                <item>Wholesale Jewelry Supplier</item>
+                <item>eCommerce</item>
+            </meta>
+            <tenure>October 2009 - September 2011</tenure>
+        </company>
+
+        <summary>
+            Instituted coding standards and best practices for N-tier web development, naming conventions, code commenting and documentation. Worked with jr. developers to improve their code as well as their user interface design skills. Responsible for technical interviews and employee on-boarding.
+        </summary>
+
+        <details>
+            <detail>
+                Designed  N-tier architecture for core business functionality. Developed core libraries for all projects: XML to object deserialization &amp; object caching using generics, LINQ, HttpHandlers and method extensions. 
+            </detail>
+            <detail>
+                Designer / developer on a web based touchscreen kiosk system for placement in jewelry retailers  as a convenient way for their customers to order products without having to maintain stock in-store. Designed themes using a combination of Photoshop and CSS3 with an emphasis on usability. 
+            </detail>
+            <detail>
+                Designed and developed a product brochure site framework using MVC3, driven by a number of XML configuration file as well as storing content local to the site and in a database. The sites content is easily modifiable via a built in HTML editor, while more permanent fixtures and areas of the site could be modified via the XML files. Components can be dynamically loaded via the XML configuration for areas of the sites, different version of product detail could be swapped in and out, content pages can dynamically be added to navigation.
+
+            </detail>
+            <detail>
+              Replaced slow SQL server based product search with a near real-time search implementation using the open source Lucene.Net search library, AJAX, and client-side templating via jQuery. 
+Maintained a customer facing web application for the company's gold recycling program used by jewelry retailers (Jewelry Television, Helzberg Gold, CashOrTrade.com).  Refactored the app to support multiple versions of the site to run as one application that automatically changed themes and configuration based on the domain name that was requested. This change made managing the code base easier and allowed for new retailers to be added in a matter of days.
+            </detail>
+
+        </details>
+
+    </workHistory> 
+    
+
+
+    
+</experience>

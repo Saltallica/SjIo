@@ -1,0 +1,22 @@
+{
+  "name": "SjIo",
+  "version": "1.0.0",
+  "description": "We've made some big updates in this release, so it’s **important** that you spend a few minutes to learn what’s new.",
+  "main": "index.js",
+  "dependencies": {
+    "semantic-ui": "^2.2.4"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.17.3",
+    "compass-mixins": "^0.12.10",
+    "gulp": "^3.9.1",
+    "gulp-compass": "^2.1.0",
+    "gulp-sass": "^2.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

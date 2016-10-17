@@ -1,0 +1,77 @@
+{
+  "base": "semantic/",
+  "paths": {
+    "source": {
+      "config": "src/theme.config",
+      "definitions": "src/definitions/",
+      "site": "src/site/",
+      "themes": "src/themes/"
+    },
+    
+    "output": {
+    
+      "packaged"     : "../wwwroot/css/semantic/",
+      "uncompressed" : "../wwwroot/css/semantic/components/",
+      "compressed"   : "../wwwroot/css/semantic/components/",
+      "themes"       : "../wwwroot/css/semantic/themes/"
+
+    },
+    
+    "clean": "../wwwroot/css/semantic/"
+  },
+  "permission": false,
+  "autoInstall": false,
+  "rtl": false,
+  "components": [
+    "reset",
+    "site",
+    "button",
+    "container",
+    "divider",
+    "flag",
+    "header",
+    "icon",
+    "image",
+    "input",
+    "label",
+    "list",
+    "loader",
+    "rail",
+    "reveal",
+    "segment",
+    "step",
+    "breadcrumb",
+    "form",
+    "grid",
+    "menu",
+    "message",
+    "table",
+    "ad",
+    "card",
+    "comment",
+    "feed",
+    "item",
+    "statistic",
+    "accordion",
+    "checkbox",
+    "dimmer",
+    "dropdown",
+    "embed",
+    "modal",
+    "nag",
+    "popup",
+    "progress",
+    "rating",
+    "search",
+    "shape",
+    "sidebar",
+    "sticky",
+    "tab",
+    "transition",
+    "api",
+    "form",
+    "state",
+    "visibility"
+  ],
+  "version": "2.2.4"
+}
