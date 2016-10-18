@@ -1,18 +1,71 @@
 @model dynamic
-@{ ViewData["Title"] = "Home Page"; }
+@{ ViewData["Title"] = ""; }
 
 
-<div id="intro">
+<section id="intro">
 	<div class="ui container">
-		<div class="row">
-			<div class="column">
+		<div class="ui grid stackable">
+			<div class="ten wide column">
 				<h1 class="compact">Sean Johnson</h1>
 				<h2 class="compact">Web Developer <span class="plus">+</span> Designer</h2>
 			</div>
+			<div class="six wide column">
+				
+				
+
+				<div class="contact">
+					
+					<a href="tel:5132556779">
+						<i class="fa fa-phone fw"></i> 513.255.6779<br/>
+					</a>
+					
+					<a href="http://linkedin.com/in/theseanjohnson">
+						<i class="fa fa-linkedin-square fw"></i> linkedin.com/in/theseanjohnson
+					</a>
+					<br/>
+					<a href="http://seanjohnson.io">
+						<i class="fa fa-globe fw"></i> seanjohnson.io
+					</a>
+
+				</div>
+
+				<div class="address">
+
+					<i class="fa fa-map-marker fw"></i> 3729 Drake Avenue <br/>
+					<i class="fa fw"></i> Cincinnati Ohio 45209
+
+				</div>
+			</div>
 		</div> 
 	</div>
-</div>
+</section>
 
+
+<section id="skills">
+
+	<div class="ui container">
+		<div class="ui grid stackable">
+			<div class="eight wide column">
+				<h3><i class="fa fa-code"></i> Code</h3>
+				<ul>
+					@foreach (var item in Model.experience.skills.code.item) {
+						<li>@item</li>
+					}
+				</ul>
+			</div>
+			
+			<div class="eight wide column">
+				<h3><i class="fa fa-object-group" aria-hidden="true"></i> Design</h3>
+				<ul>
+					@foreach (var item in Model.experience.skills.design.item) {
+						<li>@item</li>
+					}
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</section>
 
 <section class="work-history">
 
@@ -41,7 +94,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="ten wide column">
+				<div class="ten wide column print-twelve">
 					<p class="summary">
 						@item.summary
 					</p>
@@ -63,6 +116,24 @@
 
 	}
 
+</section>
+<br/><br/>
+<section id="about"> 
+	<div class="ui container">
+		
+		<div class="ui grid">
+			<one class="wide column">
+				<i class="fa fa-cogs fa-3x" aria-hidden="true"></i>
+			</one>
+			<div class="seven wide column">
+				<p>
+					This résumé is an XML driven, single page app developed using ASP.NET Core 1.0, built on OS X using Visual Studio Code, Semantic UI, SASS, gulp.js, and billions of node modules. 
+					<a href="https://github.com/Saltallica/SjIo">github.com/Saltallica/SjIo</a>
+				</p>
+			</div>
+		</div>
+
+	</div>
 </section>
 
 

@@ -16,7 +16,7 @@ $bgColor: #2C3E50;
 $lightColor: #ECF0F1;
 
 // Breakpoints
-$mobileBreakpoint            : 320px;
+$mobileBreakpoint            : 420px;
 $tabletBreakpoint            : 768px;
 $computerBreakpoint          : 992px;
 $largeMonitorBreakpoint      : 1200px;
@@ -45,6 +45,12 @@ $widescreenMonitorBreakpoint : 1920px;
 
 }
 
+@mixin print {
+    @media print {
+        @content;
+    }
+}
+
 
 @include headings() {
     
@@ -53,49 +59,6 @@ $widescreenMonitorBreakpoint : 1920px;
     font-weight: 400;
 
 }
-
-
-
-
-body, p {
-
-    color: #444;
-}
-
-#intro {  
-    
-    background: $bgColor; 
-    padding-top: 80px;
-    padding-bottom: 80px;
-    text-shadow: 0px 0px 20px rgba(black, 0.1);
-  
-    @include headings() {  
-        color: $lightColor; 
-    }
-    
-    h1 {
-
-        font-size: 7rem;
-    
-        @include breakpoint(mobile) {
-            font-size: 2rem;
-        }
-    } 
-
-    h2 {
-        
-        color: white;
-        font-size: 2.2rem;
-        margin-left: 3.7rem;
-
-        .plus { color: #FF3D2E; }
-        
-        @include breakpoint(mobile) {
-            font-size: 1rem;
-        }
-        
-    }
-} 
 
 /* utility classes */
 
@@ -111,6 +74,133 @@ body, p {
 }
 
 
+/* The goods */
+
+
+body, p {
+
+    color: #444;
+}
+
+@include print {
+    .container { 
+        width: 750px;
+        margin: 0 auto;
+    }
+}
+
+#intro {  
+    
+    background: $bgColor; 
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-shadow: 0px 0px 20px rgba(black, 0.1);
+
+    @include breakpoint(mobile) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    @include print {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+  
+    @include headings() {  
+        color: $lightColor; 
+    }
+    
+    h1 {
+
+        font-size: 7rem;
+    
+        @include breakpoint(mobile) {
+            font-size: 4rem;
+        }
+
+        @include print {
+            font-size: 5rem;
+        }
+    } 
+
+    h2 {
+        
+        color: white;
+        font-size: 2.2rem;
+        margin-left: 3.7rem;
+
+        .plus { color: #FF3D2E; }
+        
+        @include breakpoint(mobile) {
+            font-size: 2rem;
+        }
+        
+    }
+
+    .address,
+    .contact {
+        padding-top: 0px;
+        font-size: 1rem;
+        color: white;
+        line-height: 1.8;
+        a {
+            color: white;
+        }
+        .fw {
+            width: 30px;
+        }
+    }
+} 
+ 
+#skills {
+    
+    padding-top: 30px;
+    padding-bottom: 20px;
+    
+    text-shadow: 0px 1px 20px rgba(0,0,0,0.1);
+
+    background-color: #FF3D2E;
+
+    h3 {
+        color: white;
+        font-size: 50px;
+        padding-bottom: 20px;
+        line-height: 1;
+
+        @include breakpoint(mobile) {
+            font-size: 24px;
+        }
+
+        @include print {
+            font-size: 24px;
+        }
+        
+    }
+
+
+    ul {
+        padding: 0;
+        li {
+            color: white;
+            //border: solid 1px rgba(white, 0.3);
+            padding: 0px;
+            font-size: 1rem;
+            display: inline-block;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            font-weight: bolder;
+
+            @include print {
+                font-size: 0.8rem;
+                margin-right: 10px;
+                margin-bottom: 10px;
+            }
+            
+        }
+    }
+
+}
+
 
 .work-history {
 
@@ -118,6 +208,7 @@ body, p {
 
         padding-top: 40px;
         padding-bottom: 0px;
+        page-break-inside: avoid;
     }
 
     .title {
@@ -125,6 +216,10 @@ body, p {
         color: #FF3D2E;
         font-size: 2rem;
         line-height: 1.3;
+
+        @include print {
+            font-size: 1.5rem;
+        }
     }
 
     .company {
@@ -153,6 +248,10 @@ body, p {
         font-size: 1.5rem;;
         line-height: 1.5;
         margin: 0;
+
+        @include print {
+            font-size: 1.2rem;
+        }
     }
 
     .work-details {
@@ -161,12 +260,16 @@ body, p {
         padding-right: 40px;
         padding-left: 0px;
 
+         @include print {
+            padding-right: 0;
+        }
+
         li {
-        
+            padding: 0;
             padding-left: 20px;
             list-style-type: none;
             margin-bottom: 1rem;
-            border-left: solid 2px silver;
+            border-left: solid 2px #eee;
 
             p {
 
@@ -174,7 +277,17 @@ body, p {
                 padding-top: 0;
                 font-size: 1.2rem;
 
+                @include print {
+                    font-size: 1rem;
+                }
+
             }
+        }
+    }
+
+    .ui.grid>[class*="ten wide"].column.print-twelve {
+        @include print {
+            width: 70% !important;
         }
     }
 }
@@ -185,4 +298,14 @@ body, p {
     padding-left: 10px;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+#about {
+    font-family: 'Oswald';
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #666; // \m/
+    p {
+        color: #666; 
+    }
 }

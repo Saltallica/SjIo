@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <experience>
+
+    <skills>
+        <design>
+            <item>Prototype Sketching</item>
+            <item>Wireframing</item>
+            <item>Low &amp; High Fidelity Mockups</item>
+            <item>Icon &amp; Graphic Production</item>
+            <item>Translating Brand Guidelines into Applications</item>
+            <item>Dashboards / Data Visualization</item>
+            <item>Mobile &amp; Responsive Design</item>
+            <item>Adobe Photoshop, Illustrator, XD</item>
+            <item>UX Principles</item>
+            <item>Grid Based Design</item>
+        </design>
+        <code>
+            <item>JS</item>
+            <item>HTML 5 / Canvas</item>
+            <item>CSS3 / SASS / LESS </item>
+            <item>Bootstrap &amp; Foundation</item>
+            <item>AJAX / SignalR</item>
+            <item>Node.js / Gulp</item>
+            <item>ASP.NET MVC</item>
+            <item>IIS</item>
+            <item>C# / .NET</item>
+            <item>OOP / N-Tier Design</item>
+            <item>Entity Framework / ORM Concepts</item>
+            <item>Git, TFS, SVN, VSS</item>
+            <item>DB Design, Stored Procs, T-SQL</item>
+            <item>XML &amp; XSLT</item>
+        </code>
+    </skills>
     
     <workHistory>
         
@@ -13,7 +44,7 @@
                 <item>SaaS Provider</item>
                 <item>Custom Rewards Programs</item>
             </meta>
-            <tenure>March 2013 - present</tenure>
+            <tenure>March 2014 - present</tenure>
         </company>
 
         <summary>
@@ -125,6 +156,74 @@
 Maintained a customer facing web application for the company's gold recycling program used by jewelry retailers (Jewelry Television, Helzberg Gold, CashOrTrade.com).  Refactored the app to support multiple versions of the site to run as one application that automatically changed themes and configuration based on the domain name that was requested. This change made managing the code base easier and allowed for new retailers to be added in a matter of days.
             </detail>
 
+        </details>
+
+    </workHistory> 
+
+
+
+    <workHistory>
+        
+        <title>Web Developer</title>
+        
+        <company>
+            <name>
+                US Bank
+            </name>
+            <meta>
+                <item>Financial Services</item>
+                <item>Intranet / LOB Apps</item>
+            </meta>
+            <tenure>October 2004 - October 2009</tenure>
+        </company>
+
+        <summary>
+            Designed intranet portal, USBToday, using CSS, master pages, and user controls. The bank standard was still Internet Explorer 6, but I took the initiative to design for Internet Explorer 7 &amp; Firefox. Designed and developed new components for the site including a database driven Banner delivery system, doing the development across all tiers (Database, DAL, BO, BLL, and UI).
+        </summary>
+
+        <details>
+            <detail>
+                Designed a feedback management system for corporate relations using iterative prototypes developed from use cases. Site features responsive Web 2.0 style through the use of the Microsoft AJAX Control toolkit. 
+            </detail>
+            <detail>
+                Created mentoring program to teach my fellow developers back to front user interface design and development techniques using ASP.NET, Photoshop, and CSS. This included a regularly updated blog with step by step tutorials with follow-up meetings to provide further instruction.
+            </detail>
+            <detail>
+                Forced to think creatively under the restriction of Internet Explorer 6 at 800x600 resolution.
+            </detail>
+            <detail>
+                Database developer responsible for schema design and writing stored procedures using T-SQL
+            </detail>
+        </details>
+
+    </workHistory> 
+
+
+     <workHistory>
+        
+        <title>Reporting Specialist</title>
+        
+        <company>
+            <name>
+                Fifth Third Bank
+            </name>
+            <meta>
+                <item>Financial Services</item>
+                <item>Call Center Operations / Intranet</item>
+            </meta>
+            <tenure>2000 - 2004</tenure>
+        </company>
+
+        <summary>
+            Developer and reporting specialist for Fifth Third's call centers.
+        </summary>
+        <details>
+            <detail>
+                 Developed and maintained call center employee tracking &amp; reporting application written in Access, VBA &amp; SQL Server 7.0. Maintained operation division's intranet content. Built customer survey application
+            </detail>
+            <detail>
+                Automated manual document management for Lease Buyout department by recreating all necessary paperwork electronically, and managing it via an Access database.
+            </detail>
         </details>
 
     </workHistory> 
