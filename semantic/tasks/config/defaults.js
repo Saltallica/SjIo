@@ -32,12 +32,12 @@ module.exports = {
       themes      : 'src/themes/'
     },
     output: {
-      packaged     : '../wwwroot/css/semantic/',
-      uncompressed : '../wwwroot/css/semantic/components/',
-      compressed   : '../wwwroot/css/semantic/components/',
-      themes       : '../wwwroot/css/semantic/themes/'
+      packaged     : 'dist/',
+      uncompressed : 'dist/components/',
+      compressed   : 'dist/components/',
+      themes       : 'dist/themes/'
     },
-    clean : '../wwwroot/css/semantic/'
+    clean : 'dist/'
   },
 
   // components to include in package
@@ -59,6 +59,7 @@ module.exports = {
     'label',
     'list',
     'loader',
+    'placeholder',
     'rail',
     'reveal',
     'segment',

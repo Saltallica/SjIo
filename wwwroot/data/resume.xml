@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <experience>
-
     <skills>
         <design>
             <item>Prototype Sketching</item>
             <item>Wireframing</item>
             <item>Low &amp; High Fidelity Mockups</item>
-            <item>Icon &amp; Graphic Production</item>
+            <item>Icon &amp; Graphic Design &amp; Production</item>
             <item>Translating Brand Guidelines into Applications</item>
             <item>Dashboards / Data Visualization</item>
             <item>Mobile &amp; Responsive Design</item>
@@ -15,12 +14,13 @@
             <item>Grid Based Design</item>
         </design>
         <code>
-            <item>JS</item>
+            <item>JS (Vanilla, ES6, Typescript)</item>
+            <item>RESTful APIs</ite>m
+            <item>React / Webpack</item>
             <item>HTML 5 / Canvas</item>
             <item>CSS3 / SASS / LESS </item>
             <item>Bootstrap &amp; Foundation</item>
-            <item>AJAX / SignalR</item>
-            <item>Node.js / Gulp</item>
+            <item>AJAX / SignalR / Socket.io</item>
             <item>ASP.NET MVC</item>
             <item>IIS</item>
             <item>C# / .NET</item>
@@ -31,8 +31,40 @@
             <item>XML &amp; XSLT</item>
         </code>
     </skills>
-    
+
     <workHistory>
+        <title>Software Engineer</title>
+        <company>
+            <name>Paycor</name>
+            <meta>
+                <item>Payroll Provider</item>
+                <item>Human Capital Management Systems</item>
+            </meta>
+            <tenure>January 2016 - Present</tenure>
+        </company>
+        <summary>        
+            Full-stack C# / JS developer on an Agile team responsible for developing tools to help onboard new customers quickly and accurately.
+        </summary>
+        <details>
+            <detail>
+                Part of a small team tasked with building a single page application for employees to set up new customer's payroll data, help resolve 
+                data integrity issues in an easy to use interface, and move the clean data to our production HCMS. The front-end is built using React via Typescript, Webpack, and Bootstrap. The backend leans heavily on Microsoft Azure and utilizes table storage, NoSQL CosmosDB), and serverless computing via Azure Functions in order to scale resources to meet implmenting companies with up to 15,000 employees. 
+            </detail>
+            <detail>
+                Designed and developed a Node.js based tool to catalog and scrape complex PDF documents for transferring new customers data from their previous 
+                payroll providers, saving thousand of hours of manual data entry.
+            </detail>
+            <detail>
+                Consulted with our UX team to build a customized version of Bootstrap adhering to company branding guidelines to be used by all of Paycor's development teams. Helped establish development best practices for reusable front-end components and helped hire front-end developers.
+            </detail>
+            <detail>
+
+            </detail>
+        </details>
+    </workHistory>
+
+    <workHistory>
+
         
         <title>Senior Front-End Developer</title>
         
@@ -44,11 +76,11 @@
                 <item>SaaS Provider</item>
                 <item>Custom Rewards Programs</item>
             </meta>
-            <tenure>March 2014 - present</tenure>
+            <tenure>March 2014 - January 2016</tenure>
         </company>
 
         <summary>
-            I design and develop custom web applications and e-commerce sites for medium to large companies, used to reward, recognize,
+            I designed and developed custom web applications and e-commerce sites for medium to large companies, used to reward, recognize,
 		    and incentivize their employees and customers - using XSLT, XML, HTML5, Javascript, Foundation, and SASS.
         </summary>
 

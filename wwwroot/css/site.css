@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Oswald:400,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,700|Oswald:400,700");
 /*
     Google Font Selection
 
@@ -46,7 +46,7 @@ h6 {
 
 /* The goods */
 body, p {
-  color: #444; }
+  color: #222; }
 
 @media print {
   .container {
@@ -54,7 +54,7 @@ body, p {
     margin: 0 auto; } }
 
 #intro {
-  background: #2C3E50;
+  background: #252b33;
   padding-top: 80px;
   padding-bottom: 80px;
   text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); }
@@ -91,7 +91,7 @@ body, p {
     font-size: 2.2rem;
     margin-left: 3.7rem; }
     #intro h2 .plus {
-      color: #FF3D2E; }
+      color: #00a9f7; }
     @media (max-width: 420px) {
       #intro h2 {
         font-size: 2rem; } }
@@ -110,13 +110,14 @@ body, p {
 
 #skills {
   padding-top: 30px;
-  padding-bottom: 20px;
-  text-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
-  background-color: #FF3D2E; }
+  padding-bottom: 10px;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: #2C3E50; }
   #skills h3 {
-    color: white;
-    font-size: 50px;
+    color: #00a9f7;
+    font-size: 30px;
     padding-bottom: 20px;
+    letter-spacing: 2px;
     line-height: 1; }
     @media (max-width: 420px) {
       #skills h3 {
@@ -133,7 +134,7 @@ body, p {
       display: inline-block;
       margin-right: 20px;
       margin-bottom: 20px;
-      font-weight: bolder; }
+      font-weight: 400; }
       @media print {
         #skills ul li {
           font-size: 0.8rem;
@@ -142,20 +143,22 @@ body, p {
 
 .work-history .container {
   padding-top: 40px;
-  padding-bottom: 0px;
+  padding-bottom: 40px;
   page-break-inside: avoid; }
 
 .work-history .title {
-  color: #FF3D2E;
+  color: #00a9f7;
   font-size: 2rem;
-  line-height: 1.3; }
+  line-height: 1.3;
+  letter-spacing: 1px; }
   @media print {
     .work-history .title {
       font-size: 1.5rem; } }
 
 .work-history .company {
   margin-top: 10px;
-  font-size: 0.8rem; }
+  font-size: 0.8rem;
+  font-weight: bolder; }
   .work-history .company ul {
     list-style-type: none;
     margin: 0;
@@ -167,14 +170,17 @@ body, p {
   font-size: 0.8rem; }
 
 .work-history .summary {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 1.5;
-  margin: 0; }
+  margin: 0;
+  font-weight: 400;
+  margin-bottom: 30px; }
   @media print {
     .work-history .summary {
       font-size: 1.2rem; } }
 
 .work-history .work-details {
+  border-left: solid 1px #eee;
   margin-left: 0;
   padding-right: 40px;
   padding-left: 0px; }
@@ -182,15 +188,20 @@ body, p {
     .work-history .work-details {
       padding-right: 0; } }
   .work-history .work-details li {
+    position: relative;
     padding: 0;
-    padding-left: 20px;
+    padding-left: 15px;
+    margin-left: -3px;
     list-style-type: none;
-    margin-bottom: 1rem;
-    border-left: solid 2px #eee; }
+    margin-top: 2rem;
+    margin-bottom: 0;
+    border-left: solid 5px #01a9f7; }
     .work-history .work-details li p {
       margin-top: 0;
+      margin-bottom: 0;
       padding-top: 0;
-      font-size: 1.2rem; }
+      font-size: 1.1rem;
+      font-weight: 200; }
       @media print {
         .work-history .work-details li p {
           font-size: 1rem; } }
